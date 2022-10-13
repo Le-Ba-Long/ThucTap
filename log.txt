@@ -1,0 +1,12 @@
+2022-10-12 21:49:23.030  INFO 19800 --- [restartedMain] com.globits.DAApplication                : Starting DAApplication on LongKuBi with PID 19800 (started by LongKuBi in E:\BAI_TAP_LUYEN_TAP\Thuc Tap Java OcenTech\Bai Tap Lv 2\L2_Backend)
+2022-10-12 21:49:23.037  INFO 19800 --- [restartedMain] com.globits.DAApplication                : No active profile set, falling back to default profiles: default
+2022-10-12 21:49:34.143  INFO 19800 --- [restartedMain] c.g.l.ApplicationStartupListener         : Application started.
+2022-10-12 21:49:34.389  INFO 19800 --- [restartedMain] com.globits.DAApplication                : Started DAApplication in 12.143 seconds (JVM running for 14.128)
+2022-10-12 23:03:11.447  INFO 19960 --- [restartedMain] com.globits.DAApplication                : Starting DAApplication on LongKuBi with PID 19960 (started by LongKuBi in E:\BAI_TAP_LUYEN_TAP\Thuc Tap Java OcenTech\Bai Tap Lv 2\L2_Backend)
+2022-10-12 23:03:11.450  INFO 19960 --- [restartedMain] com.globits.DAApplication                : No active profile set, falling back to default profiles: default
+2022-10-12 23:03:26.602  INFO 19960 --- [restartedMain] c.g.l.ApplicationStartupListener         : Application started.
+2022-10-12 23:03:27.067  INFO 19960 --- [restartedMain] com.globits.DAApplication                : Started DAApplication in 16.174 seconds (JVM running for 17.923)
+2022-10-12 23:06:39.631  INFO 12460 --- [restartedMain] com.globits.DAApplication                : Starting DAApplication on LongKuBi with PID 12460 (started by LongKuBi in E:\BAI_TAP_LUYEN_TAP\Thuc Tap Java OcenTech\Bai Tap Lv 2\L2_Backend)
+2022-10-12 23:06:39.633  INFO 12460 --- [restartedMain] com.globits.DAApplication                : No active profile set, falling back to default profiles: default
+2022-10-12 23:06:50.332  INFO 12460 --- [restartedMain] c.g.l.ApplicationStartupListener         : Application started.
+2022-10-12 23:06:50.720  INFO 12460 --- [restartedMain] com.globits.DAApplication                : Started DAApplication in 11.573 seconds (JVM running for 12.96)
