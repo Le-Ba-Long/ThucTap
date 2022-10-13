@@ -50,16 +50,25 @@ Yêu cầu:
 - Validate thông tin được import. Nếu lỗi bất kì dòng nào thì trả về lỗi (có kèm theo dòng thứ bao nhiêu lỗi) và không lưu vào database.
 
 •	Thống kê danh sách các Employee có số lượng văn bằng >2
+
 •	Api  Tổng số lượng employee Group by Tỉnh
+
 •	Api  tìm kiếm theo tỉnh
+
 •	Api Tổng số lượng employee theo từng Huyện nếu tìm kiếm theo 1 tỉnh
+
 •	Api  % số lượng employee có 1 văn bằng, 2 văn bằng và  >2 văn bằng
 
 •	Api Tìm kiếm theo tỉnh , tính % số lượng employee có 1 văn bằng, 2 văn bằng và  >2 văn bằng đối với tỉnh đang tìm kiếm
+
 •	Api tổng số lượng employee thêm mới Group by created date (mặc định  30 ngày gần nhất)
+
 •	Api Tìm kiếm theo khoảng thời gian
 
 •	 Api Tổng số lượng employee có 1 văn bằng, 2 văn bằng và  >2 văn bằng
+
 •	group by tỉnh
+
 •	Tìm kiếm theo tỉnh 
+
 •	Tìm kiếm tỉnh, group theo huyện
