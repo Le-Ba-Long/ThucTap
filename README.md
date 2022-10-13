@@ -16,7 +16,8 @@
 +	 Thêm Tỉnh, Huyện và Xã đồng thời từ thông tin được gửi lên
 +	 Xoá Tỉnh thì Huyện và Xã thuộc tỉnh đều bị xoá theo.
 •	Xử lí logic cho Api
-	Validate trên server các thông tin đầu vào đối với Employee:
+
+Validate trên server các thông tin đầu vào đối với Employee:
 - Code không được trùng, không có dấu cách, dài tối thiểu 6 ký tự tối đa 10 ký tự, bắt buộc
 - Tên bắt buộc nhập 
 - Email đúng định dạng, bắt buộc
@@ -36,12 +37,14 @@ Thông tin trả về sẽ gồm các thông tin:
 Nghiệp vụ:
  - Một Employee sẽ có nhiều văn bằng
  - Mỗi văn bằng sẽ do một tỉnh cấp
+ - 
 Yêu cầu:
  - Thêm văn bằng cho nhân viên - văn bằng sẽ do 1 tỉnh cụ thể cung cấp (1 List)
  - Nếu Employee đã có  văn bằng A của tỉnh X cung cấp thì không được thêm mới văn bằng A được tỉnh X nếu văn bằng đó còn hiệu lực.
  - Employee không được có quá 3 văn bằng cùng loại còn hiệu lực (Bất kể tỉnh nào cung cấp)
 - Import excel thông tin nhiều Employee (Có Tỉnh, Huyện, Xã - Không có văn bằng)
 - Validate thông tin được import. Nếu lỗi bất kì dòng nào thì trả về lỗi (có kèm theo dòng thứ bao nhiêu lỗi) và không lưu vào database.
+
 •	Thống kê danh sách các Employee có số lượng văn bằng >2
 •	Api  Tổng số lượng employee Group by Tỉnh
 •	Api  tìm kiếm theo tỉnh
@@ -50,6 +53,7 @@ Yêu cầu:
 •	Api Tìm kiếm theo tỉnh , tính % số lượng employee có 1 văn bằng, 2 văn bằng và  >2 văn bằng đối với tỉnh đang tìm kiếm
 •	Api tổng số lượng employee thêm mới Group by created date (mặc định  30 ngày gần nhất)
 •	Api Tìm kiếm theo khoảng thời gian
+
 •	 Api Tổng số lượng employee có 1 văn bằng, 2 văn bằng và  >2 văn bằng
 •	group by tỉnh
 •	Tìm kiếm theo tỉnh 
